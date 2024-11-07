@@ -5,3 +5,7 @@ A recording of the session will be available soon. In the meantime, you can find
 - NVL on npm: https://www.npmjs.com/package/@neo4j-nvl/base
 - NVL documentation: https://neo4j.com/docs/nvl/current/
 - NVL API docs: https://neo4j.com/docs/api/nvl/current/
+
+---
+
+To run the project, you can install the dependencies with `npm install` and start the web server with `npm run start`. To connect to a graph, you can [set up a database](https://neo4j.com/docs/aura/auradb/getting-started/create-database/) on Neo4j Aura https://console-preview.neo4j.io/ and import the "Movies" graph from the guides [here](https://console-preview.neo4j.io/guides/sample-datasets). Be sure the update the uri and credentials in the `connection.js` file with the ones from your Aura instance once it has been created.
